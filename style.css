@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+
+.avatar {
+  border-radius: 0px; /* Радиус скругления 
+  border: 3px solid black; /* Параметры рамки 
+  box-shadow: 0 0 7px #666; /* Параметры тени */
+ }
+
+ul {
+  text-align: left;
+}
+
+div {
+  background-color: white;
+  
+}
+
+footer {
+  display: inline;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: white;
+}
+body{
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url(image/body-fon.jpg);
+}
+
+.left {
+  float: left;
+  width: 30%;
+  height: 100%;
+  background-color: transparent;
+  min-width: 300px;
+  display: block;
+}
+
+.rigth {
+  min-width: 300px;
+  display: block;
+}
+
+.main {
+  width: 90%;
+  min-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  display: inline;
+}
+
+.imgblok {
+  height: 80px;
+  float: right;
+  margin-left: 5%;
+
+}
