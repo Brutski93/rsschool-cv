@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Александр Бруцкий - CV</title>
+  </head>
+  <body><div class="wrapper">
+    <header>
+      <nav class="text2">
+        <ol class="header-content">
+          <li class="fotter-content-div"><a href="#about_">К сути</a></li>
+          <li class="fotter-content-div"><a href="#footer_">Дно!</a></li>
+        </ol>
+      </nav>
+    </header>
+    <main>
+      <h1>Александр Бруцкий:<br>Кандидат от народа или лицедей?</h1>
+      <div class="content">
+        <div class="content-div">
+          <img class="picture" alt="My photo" src="imgs/photo.jpg">
+        </div>
+        <div class="content-div">
+          <div class="content-text">
+            <h2 id="about_">Обо мне</h2>
+            <p class="text">Начинающий IT-специалист. Проходил обучение в Гомельском государственном Областном лицее в направлении математика/информатика. Прошёл начальный курс С++ на первом курсе Беларуского Государственного Университета Информатики и Радиотехники. Моей целью является стать Front-end разработчиком, а в последствии full-stack разработчиком.</p>
+          </div>
+          <div class="content-text">
+            <h2>Опыт и навыки</h2>
+            <ul class="text">
+              <li>4 года работы тестировщиком в секретной компании.</li>
+              <li>Образование: неоконченное высшее БГУИР, специальность Промышленная электроника.</li>
+              <li>Знания английского: B1 (Intermediate)</li>
+              <li>Базовые знания: HTML, CSS, JS, Figma, C++</li>
+            </ul>
+          </div>
+          <div class="content-text">
+            <h2>Контакты</h2>
+            <ul class="text">
+              <li>Телефонный номер: +375293959639 (life)</li>
+              <li>inst: <a href="https://www.instagram.com/alexander.durden/" target="_blank">Alexander Brutski</a></li>
+            </ul>
+          </div>
+          <div class="content-text">
+            <h2>Примеры кода</h2>
+            <div class="mycode">
+              <pre><code class="test"><span class="code-red">function</span> <span class="code-purp">creatAndAppend</span>(whatParent, whatTag, whatClass <span class="code-blue"><span class="code-blue">= false</span></span>, whatText <span class="code-blue"><span class="code-blue">= false</span></span>) {
+  <span class="code-red">const</span> newItem <span class="code-blue">=</span> document.<span class="code-purp">createElement</span>(whatTag);
+  <span class="code-red">if</span> (whatClass) {
+    whatClass <span class="code-blue">=</span> whatClass.<span class="code-purp">split</span>(<span class="code-blue">' '</span>);
+    <span class="code-red">for</span> (<span class="code-red">let</span> i <span class="code-blue">= 0</span>; i <span class="code-blue">&lt;</span> whatClass.<span class="code-blue">length</span>; i <span class="code-blue">+= 1</span>) {
+      newItem.<span class="code-blue">classList</span>.<span class="code-purp">add</span>(whatClass[i]);
+    }
+  }
+  <span class="code-red">if</span> (whatText) newItem.<span class="code-blue">innerHTML =</span> whatText;
+  whatParent.<span class="code-purp">appendChild</span>(newItem);
+  <span class="code-red">return</span> newItem;
+}</code></pre>
+            </div>
+          </div>
+          <div class="content-text">
+            <h2>Некоторые учебные проекты</h2>
+            <ul class="text">
+              <li><a href="https://rolling-scopes-school.github.io/brutski93-JSFE2024Q4/simon-says/" target="_blank">Игра "Саймон говорит"</a></li>
+              <li><a href="https://rolling-scopes-school.github.io/brutski93-JSFE2024Q4/christmas-shop/" target="_blank">Сайт сервиса Рождественских подарков"</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer_">
+      <div class="footer-content text1">
+        <div class="fotter-content-div"><a href="https://github.com/Brutski93" target="_blank">GitHub</a></div>
+        <div class="fotter-content-div">2025</div>
+        <div class="fotter-content-div"><a href="https://rs.school/courses/javascript-ru" target="_blank">
+          <img class="logo-rs" alt="RSSchool" src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/6183d68813ceae70d608c4aeab2f4d8117c310cf/tasks/cv/rs-school-logo.svg">
+        </a></div>
+      </div>
+    </footer>
+  </div></body>
+</html>
