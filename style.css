@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  background-image: url("imgs/bg_img.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: #010101;
+}
+a:hover {
+  text-decoration: underline;
+  color: #efbe1b;
+}
+.wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.picture {
+  max-width: 300px;
+  border-radius: 6px;
+  align-self: center;
+}
+
+.content-div {
+  max-width: 700px;
+  min-width: 320px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #01010188;
+  border-radius: 0px 0px 10px 10px;
+}
+.header-content {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 15px 0;
+}
+main {
+  margin: 3px auto;
+  flex-grow: 1;
+  background-color: #f0f0f088;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 15px auto;
+  padding: 0;
+  text-align: center;
+  font-size: 2.5em;
+}
+h2 {
+  margin: 3px;
+  padding: 0;
+}
+.content-text {
+  background-color: #FFFAFA;
+  margin: 5px;
+  padding: 5px 10px 5px 5px;
+  border-radius: 5px;
+}
+.mycode {
+  background-color: #000000f0;
+  color: #f1f1f1;
+  padding: 5px;
+  max-width: calc(100vw - 40px);
+  overflow: hidden;
+}
+.test {
+  overflow: hidden;
+}
+.code-red {color: #A52A2A;}
+.code-purp {color: #9370DB;}
+.code-blue {color: #87CEEB;}
+/* - - - - - - - - - FOOTER */
+footer {
+  border-radius: 10px 10px 0px 0px;
+  background-color: #01010188;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content {
+  margin: 15px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.fotter-content-div {
+  min-width: 70px;
+  background-color: #f0f0f0fa;
+  padding: 4px 6px;
+  border-radius: 8px;
+  text-align: center;
+}
+.logo-rs {
+  height: 20px;
+  width: 50px;
+}
+.text {
+  font-size: 1.1em;
+}
+.text1 {
+  font-size: 1.2em;
+}
+.text2 {
+  font-size: 1.4em;
+}
