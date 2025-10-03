@@ -6,13 +6,12 @@ const allEnSpans = document.querySelectorAll('.lang-en');
 changeLangButton.addEventListener('click', changeLang);
 
 function changeLang() {
-  if (changeLangButtonContent.innerHTML = 'EN') {
-    changeLangButtonContent.innerHTML = 'RU';
-    allEnSpans.forEach(a => a.classList.toggle('hidden'));
-    allRuSpans.forEach(a => a.classList.toggle('hidden'));
+  if (changeLangButtonContent.innerText === 'EN') {
+    changeLangButtonContent.innerText = 'RU';
   } else {
-    changeLangButtonContent.innerHTML = 'EN';
-    allRuSpans.forEach(a => a.classList.toggle('hidden'));
-    allEnSpans.forEach(a => a.classList.toggle('hidden'));
+    console.log(changeLangButtonContent);
+    changeLangButtonContent.innerText = 'EN';
   }
+  allEnSpans.forEach(a => a.classList.toggle('hidden'));
+  allRuSpans.forEach(a => a.classList.toggle('hidden'));
 }
