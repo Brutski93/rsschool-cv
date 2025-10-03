@@ -1,48 +1,94 @@
-<!doctype html>
-<html lang="ru">
+<!DOCTYPE HTML>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <title>Александр Бруцкий - CV</title>
+    <link rel="stylesheet" href="media.css">
+    <title>Alexander Brutski - CV</title>
   </head>
   <body><div class="wrapper">
     <header>
       <nav class="text2">
         <ol class="header-content">
-          <li class="fotter-content-div"><a href="#about_">К сути</a></li>
-          <li class="fotter-content-div"><a href="#footer_">Дно!</a></li>
+          <li class="lang-button"><p class="fotter-content-div">EN</p></li>
+          <li class="fotter-content-div lang-ru hidden"><a href="#about_">К сути</a></li>
+          <li class="fotter-content-div lang-ru hidden"><a href="#footer_">Дно!</a></li>
+          <li class="fotter-content-div lang-en"><a href="#about_">About</a></li>
+          <li class="fotter-content-div lang-en"><a href="#contacts">Contacts</a></li>
         </ol>
       </nav>
     </header>
     <main>
-      <h1>Александр Бруцкий:<br>Кандидат от народа или лицедей?</h1>
+      <h1>
+        <span class="lang-ru hidden">Александр Бруцкий:<br>Кандидат от народа или лицедей?</span>
+        <span class="lang-en">Alexander Brutski:<br>Front-end Developer</span>
+      </h1>
       <div class="content">
         <div class="content-div">
           <img class="picture" alt="My photo" src="imgs/photo.jpg">
         </div>
         <div class="content-div">
           <div class="content-text">
-            <h2 id="about_">Обо мне</h2>
-            <p class="text">Начинающий IT-специалист. Проходил обучение в Гомельском государственном Областном лицее в направлении математика/информатика. Прошёл начальный курс С++ на первом курсе Беларуского Государственного Университета Информатики и Радиотехники. Моей целью является стать Front-end разработчиком, а в последствии full-stack разработчиком.</p>
+            <h2 id="about_">
+              <span class="lang-ru hidden">Обо мне</span>
+              <span class="lang-en">About me</span>
+            </h2>
+            <p class="text">
+              <span class="lang-ru hidden">Начинающий IT-специалист.</span>
+              <span class="lang-en">Beginner IT specialist.</span>
+            </p>
+            <p class="text">
+              <span class="lang-ru hidden">Проходил обучение в Гомельском государственном Областном лицее в направлении математика/информатика. Прошёл начальный курс С++ на первом курсе Беларуского Государственного Университета Информатики и Радиотехники.</span>
+              <span class="lang-en">I studied mathematics and computer science at the Gomel State Regional Lyceum. I also took a basic C++ course in my first year at the Belarusian State University of Informatics and Radio Engineering.</span>
+            </p>
+            <p class="text">
+              <span class="lang-ru hidden">Моей целью является стать Front-end разработчиком, а в последствии full-stack разработчиком.</span>
+              <span class="lang-en">AMy goal is to become a Front-end developer, and later a full-stack developer.</span>
+            </p>
           </div>
           <div class="content-text">
-            <h2>Опыт и навыки</h2>
+            <h2>
+              <span class="lang-ru hidden">Опыт и навыки</span>
+              <span class="lang-en">Experience and skills</span>
+            </h2>
             <ul class="text">
-              <li>4 года работы тестировщиком в секретной компании.</li>
-              <li>Образование: неоконченное высшее БГУИР, специальность Промышленная электроника.</li>
-              <li>Знания английского: B1 (Intermediate)</li>
-              <li>Базовые знания: HTML, CSS, JS, Figma, C++</li>
+              <li>
+                <span class="lang-ru hidden">4 года работы тестировщиком в секретной компании.</span>
+                <span class="lang-en">4 years of work as a tester in a secret company.</span>
+              </li>
+              <li>
+                <span class="lang-ru hidden">Образование: неоконченное высшее БГУИР, специальность Промышленная электроника.</span>
+                <span class="lang-en">Education: incomplete higher education, BSUIR, specializing in Industrial Electronics.</span>
+              </li>
+              <li>
+                <span class="lang-ru hidden">Знания английского: B1 (Intermediate)</span>
+                <span class="lang-en">English proficiency: B1 (Intermediate)</span>
+              </li>
+              <li>
+                <span class="lang-ru hidden">Базовые знания: HTML, CSS, JS, Figma, C++</span>
+                <span class="lang-en">Basic knowledge: HTML, CSS, JS, Figma, C++</span>
+              </li>
             </ul>
           </div>
-          <div class="content-text">
-            <h2>Контакты</h2>
+          <div id="contacts" class="content-text">
+            <h2>
+              <span class="lang-ru hidden">Контакты</span>
+              <span class="lang-en">Contacts</span>
+            </h2>
             <ul class="text">
-              <li>Телефонный номер: +375293959639 (life)</li>
+              <li>
+                <span class="lang-ru hidden">Телефонный номер: +375293959639 (life)</span>
+                <span class="lang-en">Phone number: +375293959639 (life)</span>
+              </li>
               <li>inst: <a href="https://www.instagram.com/alexander.durden/" target="_blank">Alexander Brutski</a></li>
             </ul>
           </div>
           <div class="content-text">
-            <h2>Примеры кода</h2>
+            <h2>
+              <span class="lang-ru hidden">Примеры кода</span>
+              <span class="lang-en">Code examples</span>
+            </h2>
             <div class="mycode">
               <pre><code class="test"><span class="code-red">function</span> <span class="code-purp">creatAndAppend</span>(whatParent, whatTag, whatClass <span class="code-blue"><span class="code-blue">= false</span></span>, whatText <span class="code-blue"><span class="code-blue">= false</span></span>) {
   <span class="code-red">const</span> newItem <span class="code-blue">=</span> document.<span class="code-purp">createElement</span>(whatTag);
@@ -59,10 +105,27 @@
             </div>
           </div>
           <div class="content-text">
-            <h2>Некоторые учебные проекты</h2>
+            <h2>
+              <span class="lang-ru hidden">Некоторые учебные проекты</span>
+              <span class="lang-en">Some of my educational projects</span>
+            </h2>
             <ul class="text">
-              <li><a href="https://rolling-scopes-school.github.io/brutski93-JSFE2024Q4/simon-says/" target="_blank">Игра "Саймон говорит"</a></li>
-              <li><a href="https://rolling-scopes-school.github.io/brutski93-JSFE2024Q4/christmas-shop/" target="_blank">Сайт сервиса Рождественских подарков"</a></li>
+              <li><a href="https://brutski93.github.io/2025-Museum/" target="_blank">
+                <span class="lang-ru hidden">Сайт-презентация музея Лувр</span>
+                <span class="lang-en">Louvre Museum presentation website</span>
+              </a></li>
+              <li><a href="https://brutski93.github.io/not-fight-club/" target="_blank">
+                <span class="lang-ru hidden">Игра "Gomel OldSchool Arena"</span>
+                <span class="lang-en">Gomel OldSchool Arena game</span>
+              </a></li>
+              <li><a href="https://brutski93.github.io/Simon-says/" target="_blank">
+                <span class="lang-ru hidden">Игра "Саймон говорит"</span
+                  ><span class="lang-en">Simon Says game</span>
+              </a></li>
+              <li><a href="https://brutski93.github.io/christmas-shop/" target="_blank">
+                <span class="lang-ru hidden">Сайт сервиса "Рождественских подарков"</span>
+                <span class="lang-en">Website of the "Christmas Gifts service"</span>
+              </a></li>
             </ul>
           </div>
         </div>
@@ -77,5 +140,7 @@
         </a></div>
       </div>
     </footer>
-  </div></body>
+  </div>
+  <script src="main.js"></script>
+  </body>
 </html>
